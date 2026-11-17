@@ -64,6 +64,7 @@ Before any analysis, I checked the data in MySQL ([`sql/01_checks.sql`](sql/01_c
   - 23 sold recently, so the inventory snapshot is likely missing them, and the restock analysis can't assess these pairs.
 - Inventory is a single snapshot, so stock levels over time can't be analysed.
 - With only one October–December in the data (2022), holiday seasonality can be suggested but not confirmed.
+- The data has no delivery times, so the restock analysis **assumes a 7-day lead time**. It also treats demand over the last 90 days as steady, with no seasonality inside that window.
 
 ## Approach
 
