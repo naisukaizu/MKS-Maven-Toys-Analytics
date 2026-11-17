@@ -35,6 +35,7 @@ Source: [Mexico Toy Sales](https://mavenanalytics.io/data-playground/mexico-toy-
 
 **Inventory and restocking** (as of the 30 Sep 2023 inventory snapshot)
 - **Stores run lean.** A store-product pair holds about **16 days** of stock on average, so **868 of 1,593 pairs (54.5%)** are at or below their reorder point. Of those, **289 have less than a week of stock** and will run out before a 7-day delivery arrives: that's today's order list.
+- **77 pairs (4.8%) are already out of stock, losing about $323 in profit a day.** Playfoam is out at **13 stores** and Hot Wheels 5-Pack at **12**, which points to a supply problem for those products rather than mistakes at individual stores.
 - 
 ## Data checks
 
