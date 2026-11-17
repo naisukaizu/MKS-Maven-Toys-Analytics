@@ -33,6 +33,8 @@ Source: [Mexico Toy Sales](https://mavenanalytics.io/data-playground/mexico-toy-
 - **Some high sellers earn very little.** Dino Eggs is the 11th best seller (38K units) but has only a **9.1%** margin.
 - **Downtown stores earn the most in total ($2.2M); Airport stores earn the most per store ($126K).**
 
+**Inventory and restocking** (as of the 30 Sep 2023 inventory snapshot)
+
 ## Data checks
 
 Before any analysis, I checked the data in MySQL ([`sql/01_checks.sql`](sql/01_checks.sql)).
