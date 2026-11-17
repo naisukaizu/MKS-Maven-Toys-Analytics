@@ -87,7 +87,7 @@ Every query in the `.sql` files starts with the question it answers (`-- Q:`) an
 
 ## Tools
 
-MySQL 8 (MySQL Workbench): joins, CTEs, window functions (`RANK()`), conditional aggregation, data cleaning with `REPLACE`, `TRIM` and `CAST`
+MySQL 8 (MySQL Workbench): joins, CTEs, views, window functions (`RANK()`, `SUM() OVER ()`), conditional aggregation, data cleaning with `REPLACE`, `TRIM` and `CAST`
 
 ## Files
 
