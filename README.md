@@ -71,6 +71,7 @@ Before any analysis, I checked the data in MySQL ([`sql/01_checks.sql`](sql/01_c
 1. **Setup** ([`sql/00_setup.sql`](sql/00_setup.sql)): created the tables, loaded the CSVs with `LOAD DATA`, and converted prices stored as text (`"$9.99 "`) to numbers.
 2. **Data checks** ([`sql/01_checks.sql`](sql/01_checks.sql)): completeness, duplicates, invalid values, orphan rows and inventory coverage.
 3. **Analysis** ([`sql/02_analysis.sql`](sql/02_analysis.sql)): totals, year-over-year growth, and profit by store, location type, category and product, including a window function (`RANK()`) for each store's top products.
+4. **Restock** ([`sql/03_restock.sql`](sql/03_restock.sql)): daily demand for each store and product over the last 90 days, a safety stock and reorder point for each pair (95% service level), a status for each pair (Reorder now, Out of stock, Overstocked, No recent sales, OK), and the cost of stockouts and of stock that isn't selling.
 
 Every query in the `.sql` files starts with the question it answers (`-- Q:`) and its result (`-- A:`), so you can read the answers and rerun any query to check them.
 
