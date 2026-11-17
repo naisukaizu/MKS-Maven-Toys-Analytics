@@ -37,7 +37,8 @@ Source: [Mexico Toy Sales](https://mavenanalytics.io/data-playground/mexico-toy-
 - **Stores run lean.** A store-product pair holds about **16 days** of stock on average, so **868 of 1,593 pairs (54.5%)** are at or below their reorder point. Of those, **289 have less than a week of stock** and will run out before a 7-day delivery arrives: that's today's order list.
 - **77 pairs (4.8%) are already out of stock, losing about $323 in profit a day.** Playfoam is out at **13 stores** and Hot Wheels 5-Pack at **12**, which points to a supply problem for those products rather than mistakes at individual stores.
 - **A quarter of the stock is in the wrong place.** Of **$300K** in stock at cost, **$55.8K** sits in 207 overstocked pairs (more than 60 days of stock) and **$16.7K** in 93 pairs with no sales in 90 days.
-- 
+- **Move stock before ordering more.** Etch A Sketch is out at 7 stores but overstocked at 3, so moving stock between stores can cover part of the gap before a new order. Playfoam and Hot Wheels 5-Pack are overstocked at only one store each, so they need new orders.
+
 ## Data checks
 
 Before any analysis, I checked the data in MySQL ([`sql/01_checks.sql`](sql/01_checks.sql)).
