@@ -102,7 +102,8 @@ maven-toys-sales-inventory/
 └── sql/
     ├── 00_setup.sql
     ├── 01_checks.sql
-    └── 02_analysis.sql
+    ├── 02_analysis.sql
+    └── 03_restock.sql
 ```
 
 ## Author
