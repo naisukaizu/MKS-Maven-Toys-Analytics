@@ -1,8 +1,8 @@
 # Maven Toys: Sales, Profit and Inventory Analysis
 
-> 🚧 **In progress.** The SQL data checks and sales analysis are done. Restock analysis (SQL) and a Power BI dashboard are next.
+> 🚧 **In progress.** The SQL data checks, sales analysis and restock analysis are done. A Power BI dashboard is next.
 
-An analysis of 21 months of sales from **Maven Toys**, a fictional chain of 50 toy stores in Mexico, built in **MySQL**. It checks the data, measures revenue and profit by store, location and product, and will flag which products need restocking.
+An analysis of 21 months of sales from **Maven Toys**, a fictional chain of 50 toy stores in Mexico, built in **MySQL**. It checks the data, measures revenue and profit by store, location and product, and flags which products need restocking, which are overstocked, and what stockouts cost.
 
 ---
 
@@ -26,6 +26,7 @@ Source: [Mexico Toy Sales](https://mavenanalytics.io/data-playground/mexico-toy-
 
 ## Key findings so far
 
+**Sales and profit**
 - **The business grew, but margins fell.** Comparing January–September of each year, revenue rose **30.9%** ($5.3M to $7.0M) while profit rose only **16.0%** ($1.6M to $1.8M). No new stores opened, so the growth came from existing stores, mostly through **lower-margin products**.
 - **Toys is the most profitable category ($1.1M)**, but at a **21.2%** margin, below the **27.8%** overall margin.
 - **Colorbuds is the star product.** It sells the most units (104K) at a **53.4%** margin, is the top earner in **39 of 50 stores**, and is in the top 3 of every store.
