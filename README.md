@@ -83,6 +83,7 @@ Every query in the `.sql` files starts with the question it answers (`-- Q:`) an
 - **Estimated vs. exact row counts.** MySQL Workbench showed 827,717 rows for `sales`, but `COUNT(*)` returned 829,262, matching the CSV. The Workbench figure is an estimate from sampled data pages, so I rely on `COUNT(*)`.
 - **Questioning the question.** I first planned to find seasonality in SQL, but a 105-row result can't be read by eye, so it will be answered with a line chart instead. I also kept the year-over-year comparison as a simple two-row query, because a window function wasn't worth it for two years.
 - **Days with no sales aren't in the data.** A day with zero sales has no row, so `AVG()` would average only the days that had sales and make slow sellers look many times faster. I divided each 90-day total by 90 instead.
+- **My first reorder rule was too strict.** It based safety stock on each product's single biggest sales day, and it flagged **89%** of pairs for reordering, including **494** with more than a month of stock. I replaced it with the standard method, safety stock from the day-to-day standard deviation, which cut the list to **55%** and the pairs with a month or more of stock to **45**. Both rules are in `03_restock.sql`, so the comparison can be rerun.
 
 ## Tools
 
