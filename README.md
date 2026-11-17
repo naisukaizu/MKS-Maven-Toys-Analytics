@@ -75,7 +75,7 @@ Before any analysis, I checked the data in MySQL ([`sql/01_checks.sql`](sql/01_c
 
 Every query in the `.sql` files starts with the question it answers (`-- Q:`) and its result (`-- A:`), so you can read the answers and rerun any query to check them.
 
-**Next:** restock analysis in SQL (safety stock and reorder points), then a Power BI dashboard.
+**Next:** a Power BI dashboard.
 
 ## Challenges and what I learned
 
