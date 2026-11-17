@@ -56,6 +56,7 @@ Before any analysis, I checked the data in MySQL ([`sql/01_checks.sql`](sql/01_c
 - One row per store-product pair (1,593 of the 1,750 possible pairs), with no missing or negative stock values and no links to non-existent stores or products.
 - Stock on hand ranges from 0 to 139 units (average 18.7).
 - **77 store-product pairs had zero stock** on the snapshot date. These will be analysed in the restock step.
+- The restock analysis covers **99.8%** of units sold in the last 90 days (161,934 of 162,305). The other 371 units belong to the 23 pairs missing from the inventory snapshot (see Limitations).
 
 **Limitations**
 - **41 store-product pairs appear in sales but have no inventory record** (0.75% of sales rows, 0.61% of units sold), too few to affect the sales analysis.
