@@ -2,6 +2,8 @@
 
 An analysis of 21 months of sales from **Maven Toys**, a fictional chain of 50 toy stores in Mexico, built in **MySQL** and **Power BI**. It checks the data, measures revenue and profit by store, location and product, flags which products need restocking or are overstocked and what stockouts cost, and presents it all in a three-page interactive dashboard.
 
+![Sales & Profit page](images/overview.png)
+
 ---
 
 ## The business problem
