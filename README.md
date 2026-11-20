@@ -22,6 +22,8 @@ Maven Toys wants to know:
 | `stores` | 50 | Store name, city, location type (Downtown, Commercial, Residential, Airport), opening date |
 | `inventory` | 1,593 | Stock on hand for each store and product (a single snapshot) |
 
+A **store item** is one product at one store (for example, Playfoam at La Paz 1). The 50 stores carry 1,593 store items.
+
 Source: [Mexico Toy Sales](https://mavenanalytics.io/data-playground/mexico-toy-sales), Maven Analytics (public domain).
 
 ## Key findings so far
