@@ -26,6 +26,10 @@ A **store item** is one product at one store (for example, Playfoam at La Paz 1)
 
 Source: [Mexico Toy Sales](https://mavenanalytics.io/data-playground/mexico-toy-sales), Maven Analytics (public domain).
 
+## Findings and recommendations
+
+Year-over-year figures compare January-September 2023 with the same months of 2022. Inventory figures are as of the 30 September 2023 snapshot.
+
 ## Key findings so far
 
 **Sales and profit**
